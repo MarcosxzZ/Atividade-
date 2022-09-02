@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Forms em HTML</title>
+        <meta charset="utf-8" />
+    </head>
+
+    <body>
+        <form action="marcosviniciusamorimdasilva@gmail.com">
+            <input required />
+            <input type="submit" value="enviar" />
+            <!--Atributo checkbox-->
+            <p>Estado onde voce mora</p>
+            <label for="tor">toronto</label>
+            <input id="tor" type="checkbox" />
+
+            <label for="tex">Texas</label>
+            <input id="tex" type="checkbox" />
+            <!--Valor radio para o atributo type-->
+            <p>selecione a vacina</p>
+            <label for="meg">Megatron</label>
+            <input type="radio" id="meg" name="tipo" />
+
+            <label for="bom">bombombi</label>
+            <input type="radio" id="bom" name="tipo" />
+
+            <label for="iro">bombeiro</label>
+            <input type="radio" id="iro" name="tipo" />
+
+            <!---Elemento select, datalist e option-->
+            <p></p>
+            <label for="pao">Escolhao seu pão</label>
+            <select name="pao" id="pao">
+                <option value="Forma">Forma</option>
+                <option value="Bronhas">Bronhas</option>
+                <option value="Frances">Frances</option>
+                <option value="Baguete">Baguete</option>
+            </select>
+
+            <label for="time">buscar</label>
+            <input
+                list="times"
+                name="time"
+                id="time"
+                placeholder="time de futebol brasileiro"
+            />
+            <datalist id="times">
+                <option value="Corinthians">Corinthians</option>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Palmeiras">Palmeiras</option>
+                <option value="Santos">Santos</option>
+            </datalist>
+        </form>
+    </body>
+</html>

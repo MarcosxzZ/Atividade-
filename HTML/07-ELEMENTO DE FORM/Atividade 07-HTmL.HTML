@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Sweet and Love</title>
+    </head>
+    <body>
+        <main>
+            <!--ESTRUTURA DO ELEMENTO FORM-->
+            <form method="post">
+                <h2>insira seus dados</h2>
+                <input
+                    type="text"
+                    name="nome"
+                    placeholder="Nome:"
+                    required
+                /><br />
+                <input
+                    type="number"
+                    name="idade"
+                    placeholder="Idade:"
+                    required
+                /><br />
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="E-mail:"
+                    required
+                />
+                <br />
+                <h2>você indicaria a loja para seu amigo?</h2>
+                <input type="radio" name="escolha" value="S" />
+                <label>Sim</label>
+                <input type="radio" name="escolha" value="N" />
+                <label>Não</label>
+                <h2>O que você mais gostou na loja ?</h2>
+                <input type="checkbox" name="doces" />
+                <label for="doces">Doces</label>
+                <input type="checkbox" name="Ambiente" />
+                <label for="Ambiente">Ambiente</label>
+                <input type="checkbox" name="Entrega" />
+                <label for="Entrega">Entrega de pedido</label>
+                <input type="checkbox" name="Atendimento" />
+                <label for="Atendimento">Atendimento</label>
+                <input type="checkbox" name="Valores" />
+                <label for="Valores">Valores</label>
+                <h2>
+                    Qual sobremesa ou salgado voce comprou na ultima compra ?
+                </h2>
+                <input type="text" id="product" />
+                <h2>Em qual loja voce foi atendido ?</h2>
+                <input name="lojas" id="lojas" autocomplete="on" list="loja" />
+                <datalist id="loja">
+                    <option value="aclimação">aclimação</option>
+                    <option value="liberdade">liberdade</option>
+                    <option value="tatuape">tatuape</option>
+                    <option value="são joaquim">são joaquim</option>
+                </datalist>
+                <h2>Sugestões, elogios e críticas</h2>
+                <textarea
+                    name="message"
+                    rows="10"
+                    cols="50"
+                    placeholder="Deixe aqui
+                 a sua mensagem!"
+                    required
+                >
+                </textarea>
+                <br>
+                <br>
+                <input type="range" id="valor_01" name="valor_01" /> 
+                 100 <br /><br /> 
+                <br />
+                <br />
+                <input type="submit" value="Enviar" height="20" width="20" />
+            </form>
+        </main>
+    </body>
+</html>
