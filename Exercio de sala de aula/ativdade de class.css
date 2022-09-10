@@ -1,0 +1,52 @@
+@charset "utf-8";
+.pipoca {
+    color: blue;
+ }
+ section{ 
+    border: 3px solid grey;
+    background-color:lightskyblue
+ }
+
+section .cinema{ background-color:blue
+
+}
+
+h1{
+    color: blue;
+    border: 2px solid grey;
+    text-align: center;
+    
+}
+h2{
+    background-color: rgb(8, 245, 59);
+    text-align: center;
+    
+}
+h3{
+    background-color: rgb(193, 206, 16);
+    text-align: center;
+    
+}
+
+section .B1{ background-color:beige;
+    color: grey;
+    border: 2px solid lightgreen;
+}
+#paodequeijo{background-color:blue;}
+#primeironome{
+    background-color: brown;
+    font-size: 50px;
+}
+#segundonome{
+    background-color: blue;
+    font-size: 50px;
+}
+* {
+    background-color: lightgray;
+}
+article h4 {
+    text-align: center;
+    border: 2px solid indigo;
+    font-size: 26px;
+
+}
