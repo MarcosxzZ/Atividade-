@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(28, 238, 238);
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+p{
+    background-color: lightblue;
+    text-align: center;
+    font-size: 0.9em;
+    text-indent: 3em;
+}
+
+h1{
+    background-color: rgb(76, 63, 253);
+    color: rgb(246, 246, 250);
+    border-top: 2px dotted rgb(247, 247, 247);
+    border-bottom: 2px dashed rgb(247, 247, 247);
+    border-width: 2px;
+    border-style: solid;
+    border-color: greenyellow;
+    border:2px dotted rgb(247, 247, 247); 
+}
