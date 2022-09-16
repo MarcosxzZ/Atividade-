@@ -1,0 +1,73 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #0c0c0b;
+    line-height: 1.6em;
+}
+#showcase1 {
+    background-image: url('Time\ do\ Brasil.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align:center;
+    padding: 0 20px;
+}
+#showcase1 h1 {
+    font-size: 3em;
+    line-height: 1.2em;
+    background-color: black;
+    color: white;
+    border: 5px solid red;
+}
+#showcase1 h2 {
+    font-size: 50px;
+    line-height: 1.2em;
+    background-color: black;
+    color: white;
+    border: 5px solid red;
+}
+.origem{font-size: 30px;
+    line-height: 1.2em;
+    color: red;
+background-color: white;}
+
+.inicio{font-size: 30px;
+        line-height: 1.2em;
+        color: red;
+    }
+
+#showcase1 .btn1 {
+    font-size: 20px;
+    text-decoration: none;
+    color: #faf8f8;
+    border: #fffefe 2px solid;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#section-a {
+    font-size: 15px;
+    padding: 20px;
+    background: #eb2400;
+    color: #fff;
+    text-align: center;
+}
+#final{    text-align:center;
+    padding: 0 20px;
+}
+
+#final .btn2 {
+    font-size: 20px;
+    text-decoration: none;
+    color: #da1010;
+    border: #e70404 2px solid;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
