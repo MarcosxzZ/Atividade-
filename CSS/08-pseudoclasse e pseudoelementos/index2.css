@@ -1,0 +1,17 @@
+p:first-child{
+ color: blue;
+}
+
+.mylist li:first-child{
+    background-color: brown;
+
+}
+.mylist li:nth-child(3){
+    background-color: blue;
+}
+.mylist li:last-child{
+    background-color: blueviolet;
+}
+a:hover{
+    background-color: green;
+}
