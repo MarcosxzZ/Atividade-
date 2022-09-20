@@ -15,3 +15,29 @@ p:first-child{
 a:hover{
     background-color: green;
 }
+#paragrafo::before{
+    content: "leia isso -";
+}
+#paragrafo2::after{
+    content: "-leia mais";
+}
+/*first-letter que pega a primeira letra do meu elemento*/
+p::first-letter{
+    font-size: 200%;
+    color: #8a2be2;
+}
+#first::first-line{
+    background-color: gold;
+}
+#second::first-line{
+    background-color: rgb(248, 61, 14);
+    display: inline-block;
+}
+p::selection{
+    color: white;
+    background-color: blue;
+}
+::selection{
+    color: gold;
+    background-color: red;
+}

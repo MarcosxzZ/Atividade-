@@ -6,3 +6,18 @@ body {
     line-height: 1.6em;
     margin:0;
    }
+   .texto{
+    background-color: #649ea7;
+    text-align: center;
+    border: 1px cor #000000 solid;
+   }
+   table{
+    border:1px#000000 solid;
+   }
+   th{
+    border:1px#000000 solid;
+    background-color: #8fbfb9;
+   }
+   td{
+    border:1px#000000 solid;
+   }
