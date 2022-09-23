@@ -1,0 +1,45 @@
+@charset "utf-8";
+.container {
+ display: flex;
+ align-items:flex-start;
+
+}
+body{
+    background-color: gray;
+}
+h1{
+    background-color: white;
+    color: blue;
+}
+h2{
+    background-color: white;
+    color: blue;
+
+}
+
+
+.container div {
+    border: 1px rgb(27, 23, 23) solid;
+    padding: 10px;
+   }
+   .item-box-1 {
+    flex:1;
+    order:1 ;
+    background-color: white;
+      }
+      .item-box-2 {
+    flex:1 ;
+    order:1 ;
+    background-color: white;
+      }
+      .item-box-3 {
+        align-self: flex-end;
+    flex:4 ;
+    order:1;
+    background-color: green;
+      }
+      .item-box-4 {
+        flex: 1;
+        order: 1;
+        background-color: white;
+       }
