@@ -9,30 +9,39 @@ body{
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
 }
-img{
-    width: 300px;
-    margin-right: 50px;
+.começo{
+    border: 2px solid #000;
+    margin: 50px 0;
+    padding: 50px;
+    background: #faf2f2;
+    border-radius: 50px;
+    height:800px ;
+    text-align:right;
 }
-.div1{
+.imagem1{
+    float:left;
+}
+
+.meio1{
+    clear: left;
     border: 2px solid #000;
     margin: 50px 0;
     padding: 50px;
     background: #faf2f2;
     border-radius: 50px;
 }
-.div h3{
-    margin: 20px 0;
-}
 
-#container-left{
-    display: flex;
+.meio2{
+    border: 2px solid #000;
+    margin: 50px 0;
+    padding: 50px;
+    background: #faf2f2;
+    border-radius: 50px;
 }
-
-#container-right{
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-#container-right figure{
-    margin-left: 50px;
+.fim{
+    border: 2px solid #000;
+    margin: 50px 0;
+    padding: 50px;
+    background: #faf2f2;
+    border-radius: 50px;
 }
