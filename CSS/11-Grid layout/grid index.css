@@ -1,32 +1,35 @@
 .container{
     display:grid;
     border: 1px solid black;
-    grid-template-columns:repeat(4, 1fr) 40px 40px 40px 40px 40px;
-    /*grid-template-rows: repeat(3,1fr) 40px 40px 40px; 
-    grid-template-areas:"pipoca pipoca pipoca pipoca" "footer footer.main ""header header header pipoca2";*/ 
+    grid-template-columns:100px 100px 100px;
+    grid-template-rows:100px 100px; 
+ /*grid-template-areas:"pipoca pipoca pipoca pipoca" "footer footer.main ""header header header pipoca2";*/
+    justify-items: stretch;
+    align-items:center;
+    place-items: stretch center;
 
 }
 .item-1{
     border: 1px solid blue;
-    grid-area: pipoca;
+    /*grid-area: pipoca;*/
 }
 
 .item-2{
     border: 1px solid green;
-    grid-area: footer;
+    /*grid-area: footer;*/
 }
 
 .item-3{
     border: 1px solid red;
-    grid-area: main;
+    /*grid-area: main;*/
 }
 
 .item-4{
     border: 1px solid yellow;
-    grid-area: header;
+   /* grid-area: header;*/
 }
 
 .item-5{
     border: 1px solid orange;
-    grid-area: pipoca2 ;
+    /*grid-area: pipoca2 ;*/
 }
