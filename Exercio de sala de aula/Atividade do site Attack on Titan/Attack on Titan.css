@@ -1,0 +1,75 @@
+@charset "utf-8";
+* {
+ margin:80px;
+ padding: 0;
+}
+.showcase {
+        background-image: url('attack on titan titulo.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 500px;
+        width: 2000px;
+        text-align: center;
+        color: #8C867C;
+        font-size: 50px;
+       }
+       .titulo{
+        position: absolute;
+        right:700px;
+        top:250px ;
+        font-size: 100px;
+       }
+
+body{
+        background-image: url('attack on titan fundo.jpg');
+        background-repeat: no-repeat;
+         background-size: cover;
+         background-color: #C1C2BC;
+         height: 1000PX;
+
+}
+.começo{
+    background-color: #C1C2BC;
+    font-size: 30px;
+    height: 800px;
+}
+.imagem1{
+    height:500px;
+    float:left;
+}
+.texto1{
+    text-align: right;
+}
+
+.meio{
+    font-size: 30px;
+    clear:left;
+    height: 800px;
+    background-color: #C1C2BC;;
+}
+
+.video{
+    float:left;
+}
+spam{
+    color: #725436;
+    text-align: right;
+}
+.fim{font-size: 30px;
+    clear:left;
+    height: 800px;
+    background-color: #C1C2BC;}
+
+    .notice1{
+    float: left;
+    }
+    .teste1{
+        border: 1px solid black;
+        width: 200px;
+        height: 200px;
+    }
+     .notice2{
+        clear: left;
+        float: left;
+        border: 1px solid black;
+    } 
