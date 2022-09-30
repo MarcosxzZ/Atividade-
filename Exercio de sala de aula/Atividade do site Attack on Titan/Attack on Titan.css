@@ -8,14 +8,14 @@
         background-repeat: no-repeat;
         background-position: center;
         height: 500px;
-        width: 2000px;
+        width: 1640px;
         text-align: center;
         color: #8C867C;
         font-size: 50px;
        }
        .titulo{
         position: absolute;
-        right:700px;
+        right:600px;
         top:250px ;
         font-size: 100px;
        }
@@ -24,8 +24,8 @@ body{
         background-image: url('attack on titan fundo.jpg');
         background-repeat: no-repeat;
          background-size: cover;
-         background-color: #C1C2BC;
-         height: 1000PX;
+         background-color:#314A20;
+         height: 1500PX;
 
 }
 .começo{
@@ -47,6 +47,9 @@ body{
     height: 800px;
     background-color: #C1C2BC;;
 }
+.list{
+    text-align: right;
+}
 
 .video{
     float:left;
@@ -57,19 +60,68 @@ spam{
 }
 .fim{font-size: 30px;
     clear:left;
-    height: 800px;
+    height: 1200px;
     background-color: #C1C2BC;}
 
-    .notice1{
-    float: left;
-    }
-    .teste1{
-        border: 1px solid black;
-        width: 200px;
-        height: 200px;
-    }
-     .notice2{
-        clear: left;
-        float: left;
-        border: 1px solid black;
-    } 
+.notice1{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    float:right;
+    position: absolute;
+    right: 260px;
+    top:2570px;
+}
+.notice2{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    clear: left;
+}
+.notice3{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    float:right;
+    position: absolute;
+    right: 260px;
+    top:3060px;
+}
+.notice4{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    clear: left;
+    
+
+    
+}
+#section-a {
+    padding: 20px;
+    background: #C1C2BC;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top:4000px;
+    right: 95px;
+    width: 1680px;
+}
+.image{
+    height: 200px;
+    width: 200px;
+    align-items:left;
+
+}
+
+.textonoticia{
+    position: absolute;
+    top: 245px;
+}
+.textonoticia2{
+    position: absolute;
+    top: 2900px;
+}
+.textonoticia3{
+    position: absolute;
+    top: 3370px;
+}
