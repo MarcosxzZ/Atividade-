@@ -6,3 +6,6 @@ var A="colin";
 */
 
 console.log(A)
+
+var A= 10
+var imparPar= A%2
