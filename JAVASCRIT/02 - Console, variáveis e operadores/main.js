@@ -1,11 +1,7 @@
-var A="colin";
+var nota1 =8;
+var nota2 =5;
+var nota3 =7;
+var nota4 =10;
+var media =(nota1+nota2+nota3+nota4)/4
 
-
-/*\ n é igual a tag <br>
-'panela velha e que faz comida boa'
-*/
-
-console.log(A)
-
-var A= 10
-var imparPar= A%2
+console.log(media)
