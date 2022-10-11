@@ -4,4 +4,4 @@ var nota3 =7;
 var nota4 =10;
 var media =(nota1+nota2+nota3+nota4)/4
 
-console.log(media)
+console.log(`media dos alunos é ${media}`)
