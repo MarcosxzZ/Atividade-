@@ -22,4 +22,15 @@ console.log(Array1)
 console.log(u)
 
 /*array bidimensional*/
-var Array1 =["HTML",1993,"CSS", 1996,"Bootstrap",2011,"JS", 1995,"React", 2013,"Java",1995]
+var array2 = [ ["HTML", 1993, "CSS", 1996],
+            ["BOOTSTRAP", 2011, "JS", 1995],
+            ["REACT", 2013, "JAVA", 1995]
+]
+console.log(array2)
+console.log(array2.length)
+console.log(array2[2][1])
+
+array2[1][2] = "JAVASCRIPT";
+delete array2 [2][2]
+var t = array2.push("pipoca")
+console.log(array2)
