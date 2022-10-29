@@ -4,17 +4,38 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="shortcut icon" href="#" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>JavaScript com HTML DOM - Parte 02</title>
 </head>
 
 <body>
-    <h2 id="titulo"> Minha página</h2>
-    <ul id="items" class="list">
-        <li class="item" id="item1">Homem de Ferro</li>
-        <li class="item" id="item2">Capitão America</li>
-        <li class="item" name="fitem">Pantera Negra</li>
-        <li class="item" name="fitem">Hulk</li>
+
+    <header>
+        <h1 class="container text-center p-3 bg-light">Mais metodos do JS</h1>
+    </header>
+    <main>
+        <p>Meu paragrafo sem classe</p>
+        <p class="exemplo">Meu paragrafo com a classe.exemplo</p>
+    </main>
+    <br>
+    <div class="myclass">Meu elemento div com .myclass</div>
+    <hr>
+
+    <span id="my-span">Meu elemento span com id #my-span</span>
+    <hr>
+    <br>
+    <button class="btn btn-primary" onclick="Clique()">Clique aqui</button>
+    <hr>
+
+    <ul class="items">
+        <li id="my-li" class="item">Item 1</li>
+        <li class="item teste">Item 2</li>
+        <li class="item teste">Item 3</li>
+        <li id="my-li" class="item">Item 4</li>
     </ul>
+
     <script src="HTML DOM  Parte 03.js"></script>
 </body>
 
