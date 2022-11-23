@@ -6,20 +6,3 @@
     font-family: 'Cormorant Garamond', serif;
 }
 
-#inicio {
-    background-image: url('plano\ de\ fundo\ de\ jogo.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 890px;
-    width: 2140px;
-    text-align: center;
-    color: blue;
-    font-size: 300px;
-}
-.titulo {
-    position: absolute;
-    right: 800px;
-    top: 350px;
-    font-size: 100px;
-}
