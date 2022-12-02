@@ -1,132 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-}
-
-/*Efeito Parallax */
-
-.titulo {
-    color: blue;
-    font-size: 100px;
-    background-color: #c1c2bc;
-    width: 1000px;
-    position: relative;
-    left: 500px;
-    bottom: 100px;
-}
-
-#inicio {
-    background-image: url('Plano\ de\ \ fundo\ 1.jpeg');
-    width: 100%;
-    height: 20px;
-    text-align: center;
-    padding: 15% 5%;
+    box-sizing: border-box;
+    text-decoration: none;
     font-family: 'Cormorant Garamond', serif;
-    color: rgb(20, 20, 20);
+}
 
-    background-position: center;
+/* navbar inicio */
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(45deg, #506272 #7b98d8, #1f468f, #0d0f0f);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.logo-1 {
+    font-size: 29px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.navbar .menu li {
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 55px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+    color: #1f468f;
+    opacity: 0.4s;
+}
+
+.imge {
+    border-radius: 5rem;
+    margin-left: 12vh;
+}
+
+.imge img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5rem;
+}
+
+.pesquisa {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 12px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.904);
+    margin-right: 22px;
+    width: 25vh;
+}
+
+.pesquisa input {
+    background-color: transparent;
+    border: 0;
+    font-size: 15px;
+    color: #fff;
+    outline: none;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    max-width: 414px;
+    min-height: 896px;
+    margin: auto;
+}
+
+.pesquisa input::placeholder {
+    color: #f1f1f1;
+}
+
+.buttonSearch {
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 72px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.buttonSearch:hover {
+    transform: scale(1.4);
+}
+
+.butao {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    width: 150px;
+    height: 33px;
+    border-radius: 12px;
+    background: black;
+    color: #fff;
+}
+
+/* area da main */
+
+.submit {
+    background: #000000;
+    color: white;
+    width: 150px;
+    height: 33px;
+    border-radius: 12px;
+}
+
+.submit:hover {
+    background-color: rgb(62, 62, 62);
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.butao:hover {
+    background-color: rgb(62, 62, 62);
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+/* area da section */
+
+body {
+    background: linear-gradient(45deg, #506272, #102027, #7b98d8, #0f2327);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}
+
+.sobrenos {
+    background-color: #1f468f;
+    animation: colors 15s ease infinite;
+    color: #fff;
+    height: 500px;
+    text-align: center;
+    font-size: 37px;
+}
+
+.titulosobrenos {
+    color: white;
+    font-size: 50px;
+}
+.textosobrenos {
+    color: white;
+    font-size: 30px;
+}
+
+.historia {
+    background-image: url('background\ game.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+    color: #fff;
+    height: 700px;
+    text-align: center;
+    font-size: 37px;
 }
-/*Sobre nós*/
-.titulo2 {
-    color: blue;
-    font-size: 50px;
-    background-color: #c1c2bc;
-    width: 290px;
-    position: relative;
-    bottom: 50px;
-    left: 800px;
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .container {
-    position: relative;
-    top: 100px;
-}
-
-.conteudo {
-    background-color: #c1c2bc;
     display: flex;
-    height: 400px;
-    width: 100%;
-    padding: 5% 5%;
+    position: relative;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.texto1 {
-    color: white;
-    font-size: 25px;
+.card {
+    display: flex;
+    justify-content: center; 
+    
+    width: 95%;
+    height: 260px;
+    margin: 15px;
+    background: linear-gradient(45deg, #084177, #90ebfb);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    display: flex;
+    padding: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.card h2 {
+    padding: 20px;
+    align-items: center;
+}
+
+.card p {
+    margin-left: 15px;
+    padding: 10px;
     position: relative;
     top: 100px;
 }
 
-/*Historia*/
-
-.titulo3 {
-    color: blue;
-    font-size: 50px;
-    background-color: #c1c2bc;
-    width: 390px;
-    position: relative;
-    top: 130px;
-}
-
-.Historia {
-    background-image: url('Imagem\ Historia.jpg');
-    width: 100%;
-    height: 20px;
+.card a {
+    background-color: black;
+    color: #fff;
+    padding: 15px 20px;
     text-align: center;
-    padding: 15% 5%;
-    font-family: 'Cormorant Garamond', serif;
-    color: rgb(20, 20, 20);
-
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    margin: 20px 45px;
+    border-radius: 15px 15px;
+    text-decoration: none;
 }
 
-.texto2 {
-    color: white;
-    font-size: 25px;
-    position: relative;
-    top: 100px;
+.card:hover {
+    background-color: rgb(62, 62, 62);
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
 }
 
-/*Propósito,Missão,Visão,Valores*/
+.card img{
 
-#meio {
-    background-color: blue;
-    position: relative;
-    top: 100px;
-    padding: 5% 5%;
-    width: 100%;
 }
 
-.tema1 {
-    background-color: #c1c2bc;
+.container1 {
     display: flex;
-    height: 200px;
-    border: 5px ridge black;
-    width: 2100px;
-    height: 300px;
-    position: relative;
-    bottom: 50px;
+    flex-wrap: wrap;
+    background-color: #084177;
+    height: 600px;
 }
 
-.t1 {
-    border: 5px ridge black;
-    width: 200px;
-    height: 200px;
+.tituloempresa {
+    color: white;
     position: relative;
-    top: 50px;
+    left: 900px;
 }
 
-.Propósito {
+.card1 {
+    width: 350px;
+    height: 360px;
+    margin: 15px;
+    background: linear-gradient(45deg, #084177, #90ebfb);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
     position: relative;
-    top: 70px;
-    left: 50px;
-    font-size: 22px;
+    top: 100px;
+    
+    
 }
 
+.card1 h2 {
+    padding: 20px;
+    align-items: center;
+}
 
+.card1 p {
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.card1 a {
+    background-color: black;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+    margin: 20px 45px;
+    border-radius: 15px 15px;
+    text-decoration: none;
+}
+
+.card1:hover {
+    background-color: rgb(62, 62, 62);
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+footer {
+    background: linear-gradient(45deg, #000000, #141a13, #070101, #dae2e4);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+    color: #fff;
+    height: 260px;
+    text-align: center;
+    font-size: 37px;
+    position: relative;
+    top: 1500px;
+}
