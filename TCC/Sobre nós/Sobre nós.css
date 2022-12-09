@@ -213,114 +213,41 @@ body {
     flex-wrap: wrap;
 }
 
-.card {
-    display: flex;
-    justify-content: center; 
-    
-    width: 95%;
-    height: 260px;
-    margin: 15px;
-    background: linear-gradient(45deg, #084177, #90ebfb);
-    background-size: 300% 300%;
-    animation: colors 15s ease infinite;
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
-    display: flex;
-    padding: 15px;
-    margin-left: 40px;
-    margin-right: 40px;
+.container{
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
 }
 
-.card h2 {
-    padding: 20px;
-    align-items: center;
+.img{ 
+width: 50%;
+height: 50%;
 }
 
-.card p {
-    margin-left: 15px;
-    padding: 10px;
-    position: relative;
-    top: 100px;
+.card{ 
+display: grid; 
+grid-template-columns: repeat(2,1fr);
+grid-gap:2rem; 
+background: #f1f1f1; 
+margin-bottom: 2rem;
+
 }
 
-.card a {
-    background-color: black;
-    color: #fff;
-    padding: 15px 20px;
-    text-align: center;
-    margin: 20px 45px;
-    border-radius: 15px 15px;
-    text-decoration: none;
-}
+.card h1{
+    margin-bottom: 2rem;
 
-.card:hover {
-    background-color: rgb(62, 62, 62);
-    color: #fff;
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all 1s ease;
 }
 
 .card img{
-
+    height: 400px;
 }
-
-.container1 {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #084177;
-    height: 600px;
+.card>texto {
+    padding: 2rem;
 }
+.card:nth-child(even) img{
+    order: 2;
 
-.tituloempresa {
-    color: white;
-    position: relative;
-    left: 900px;
-}
-
-.card1 {
-    width: 350px;
-    height: 360px;
-    margin: 15px;
-    background: linear-gradient(45deg, #084177, #90ebfb);
-    background-size: 300% 300%;
-    animation: colors 15s ease infinite;
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
-    position: relative;
-    top: 100px;
-    
-    
-}
-
-.card1 h2 {
-    padding: 20px;
-    align-items: center;
-}
-
-.card1 p {
-    margin-left: 15px;
-    padding: 10px;
-}
-
-.card1 a {
-    background-color: black;
-    color: #fff;
-    padding: 15px 20px;
-    text-align: center;
-    margin: 20px 45px;
-    border-radius: 15px 15px;
-    text-decoration: none;
-}
-
-.card1:hover {
-    background-color: rgb(62, 62, 62);
-    color: #fff;
-    cursor: pointer;
-    transform: scale(1.03);
-    transition: all 1s ease;
 }
 
 footer {

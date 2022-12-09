@@ -1,0 +1,30 @@
+O que é Spring ?
+
+R:Spring é um framework open source para a plataformapara criação de aplicações web escritas em Java.
+
+O quê é Hibernate ?
+
+R: Hibernate é um framework ORM, ou seja, para o mapeamento objeto-relacional que é mais ultilizado em back-end.
+
+o quê é JVM, JDK e JRE ?
+
+JVM
+
+R: Ele é programa que carrega e converte os bytecodes em código executável de máquina.
+
+JDK
+
+R:JDK é um conjunto de utilitários que permitem criar sistemas de software para a plataforma Java.
+
+JRE
+
+R:A JRE é uma implementação gratuita que executar aplicativos Java em seu computador.
+
+O quê é o Java e por qual motivo foi criado?
+
+R:O motivo é antecipar as tendências tecnológicas futuras.
+
+Qual a diferença entre JSE, JME e JEE ?
+
+R:O JSE é utilizado em Servidores e PC´s, o JEE voltada para redes, internet e intranets e o JME é ambiente para desenvolvimento de aplicações para 
+dispositivos móveis como celulares.
